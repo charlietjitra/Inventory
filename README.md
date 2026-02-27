@@ -21,6 +21,7 @@ A full-stack inventory management application for warehouse operations.
 
 1. Create PostgreSQL database named `inventory`
 2. Run migrations:
+
 ```bash
 cd backend
 npm run migrate:up
@@ -49,6 +50,7 @@ Client runs on http://localhost:3001
 ## Environment Configuration
 
 Create `backend/.env`:
+
 ```env
 DATABASE_URL=postgres://username@localhost:5432/inventory
 JWT_SECRET=your_jwt_secret
@@ -87,7 +89,3 @@ npm run migrate:up        # Run pending migrations
 npm run migrate:down      # Rollback last migration
 npm run migrate:create    # Create new migration
 ```
-
-## License
-
-MIT
