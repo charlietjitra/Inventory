@@ -2,6 +2,10 @@
 
 A full-stack inventory management application for warehouse operations.
 
+- REST API with JWT authentication and PostgreSQL database
+- React/Next.js frontend with TypeScript and styled-components
+- Firebase Cloud Messaging for real-time push notifications
+
 ## Tech Stack
 
 - **Frontend**: Next.js, TypeScript, Styled Components

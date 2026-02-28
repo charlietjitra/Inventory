@@ -7,16 +7,7 @@ importScripts(
 importScripts(
   "https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js",
 );
-
-// Initialize the Firebase app in the service worker by passing the generated config
-const firebaseConfig = {
-  apiKey: "AIzaSyC0XxN1p-y2x70Bo2eZxXz_t-E93ecbg5o",
-  authDomain: "push-noti-1be3b.firebaseapp.com",
-  projectId: "push-noti-1be3b",
-  storageBucket: "push-noti-1be3b.firebasestorage.app",
-  messagingSenderId: "172777133623",
-  appId: "1:172777133623:web:28838b93de1a7ab0c6d1b2",
-};
+import { firebaseConfig } from "./firebase-config";
 
 firebase.initializeApp(firebaseConfig);
 

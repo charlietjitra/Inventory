@@ -1,16 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getMessaging, getToken } from "firebase/messaging";
+import { firebaseConfig, vapidKey } from "./firebase-config";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC0XxN1p-y2x70Bo2eZxXz_t-E93ecbg5o",
-  authDomain: "push-noti-1be3b.firebaseapp.com",
-  projectId: "push-noti-1be3b",
-  storageBucket: "push-noti-1be3b.firebasestorage.app",
-  messagingSenderId: "172777133623",
-  appId: "1:172777133623:web:28838b93de1a7ab0c6d1b2",
-};
-
-const vapidKey = "BK34CvO2UuZ8Yup0_-hZ1L7TOnTta1s0JfAN9dmvU9d6JC8-G3REE8p0eWqew6UEKl0xUgAJPb78FQkgXJn4YnI";
 const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase Cloud Messaging only in the browser
